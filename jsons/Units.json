@@ -84,6 +84,7 @@
                 "movement": 2,
                 "strength": 8,
                 "cost": 20,
+                "uniques": "[-10]% Strength for enemy [Military] units"],
                 "obsoleteTech": "Metal Casting",
                 "upgradesTo": "Swordsman",
                 "attackSound": "nonmetalhit"
@@ -210,15 +211,15 @@
         {
                 "name": "Galley",
                 "unitType": "Melee Water",
-                "uniqueTo": "Barbarians",
                 "movement": 3,
                 "strength": 7,
                 "cost": 40,
+                "requiredTech": "Sailing"
                 "uniques": ["Cannot enter ocean tiles"],
                 "upgradesTo": "Trireme",
                 "obsoleteTech": "Astronomy",
                 "attackSound": "nonmetalhit"
-                //Barbarian unique naval unit, weaker and slower than Trireme.
+                //Formerly Barbarian unique naval unit.
         },
         {
                 "name": "Chariot Archer",
@@ -271,8 +272,8 @@
                 "uniqueTo": "India",
                 "replaces": "Chariot Archer",
                 "movement": 3,
-                "strength": 9,
-                "rangedStrength": 11,
+                "strength": 14,
+                "rangedStrength": 10,
                 "cost": 70,
                 "requiredTech": "The Wheel",
                 "upgradesTo": "Knight",
@@ -284,12 +285,12 @@
                 "name": "Spearman",
                 "unitType": "Sword",
                 "movement": 2,
-                "strength": 11,
+                "strength": 10,
                 "cost": 56,
                 "requiredTech": "Bronze Working",
                 "obsoleteTech": "Civil Service",
                 "upgradesTo": "Pikeman",
-                "uniques": ["[+50]% Strength <vs [Mounted] units>"],
+                "uniques": ["[+70]% Strength <vs [Mounted] units>"],
                 "attackSound": "metalhit"
         },
         {
