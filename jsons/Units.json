@@ -388,7 +388,7 @@
                 "uniqueTo": "Greece",
                 "replaces": "Horseman",
                 "movement": 5,
-                "strength": 14,
+                "strength": 13,
                 "cost": 75,
                 "requiredTech": "Horseback Riding",
                 "upgradesTo": "Knight",
