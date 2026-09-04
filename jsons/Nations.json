@@ -161,7 +161,7 @@
                 "innerColor": [255, 255, 255],
                 "favoredReligion": "Christianity",
                 "uniqueName": "Sun Never Sets",
-                "uniques": ["[+1 Happiness] in cities on [Coast] tiles","[+1 Gold] to [Coast] tiles","[+2] Movement <for [Water] units>","[{Military} {land} {ranged}] units gain the [Accuracy I] promotion"],"[+100]% [Coal] resource production"],
+                "uniques": ["[+1 Happiness] in cities on [Coast] tiles", "[+1 Gold] to [Coast] tiles", "[+2] Movement <for [Water] units>", "[{Military} {land}] units gain the [Accuracy I] promotion"], "[+100]% [Coal] resource production"],
                 "cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
                         "Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
                         "Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
