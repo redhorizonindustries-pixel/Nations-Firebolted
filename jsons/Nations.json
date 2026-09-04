@@ -1,41 +1,232 @@
 [
+        //Spectator
+    //Not "Excluded from map editor" as it serves as placeholder for "Any Civ" starting locations
+        {
+                "name": "Spectator",
+                "outerColor": [255,255,255]
+//                "innerColor": [255,255,255]
+        },
+
+        {
+                //nations
+                "name": "Babylon",
+                "leaderName": "Nebuchadnezzar II",
+                "adjective": ["Babylonian"],
+                "startBias": ["Avoid [Tundra]"],
+                "preferredVictoryType": "Scientific",
+                "personality": "Nebuchadnezzar II",
+
+                "startIntroPart1": "May the gods bless you, great Nebuchadnezzar, ruler of ancient Babylon! Built 5000 years ago, Babylon emerged as an empire in 1800 BC, thanks to godlike Hammurabi, The Giver of Law. Falling under the Kassites assaults then the Assyrian domination, Babylon was reborn from its ashes, gaining back its independance, and became the beacon for Arts and Learning in the ancient world. O Nebuchadnezzar, after your death, Babylon quickly fell, conquered by the mighty Persians, and then by the Greeks, until the great city disappeared forever in 141 BC.",
+                "startIntroPart2": "Great Nebuchadnezzar, Babylon's glory still lives through you and your people. Will you create a spark to enlighten the world again? Will your new empire shine through the ages of history?",
+
+                "declaringWar": "The demon wants the blood of soldiers!",
+                "attacked": "Oh well, I presume you know what you're doing.",
+                "defeated": "It is over. Perhaps now I shall have peace, at last.",
+                "introduction": "Are you real or a phantom?",
+
+                "neutralHello": "Greetings.",
+                "hateHello": "What do YOU want?!",
+
+                "tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+                "outerColor": [27,53,63],
+                "innerColor": [213,249,255],
+                "favoredReligion": "Islam",
+                "uniqueName": "Ingenuity",
+                "uniques": ["Free [Great Scientist] appears <upon discovering [Writing] technology>", "[Great Scientist] is earned [50]% faster"],
+                "cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
+                        "Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
+                        "Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
+                        "Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+        },
     {
-		"name": "Adelle Corp",
-		"leaderName": "Kane",
-		"preferredVictoryType": "Domination",
+                "name": "Greece",
+                "leaderName": "Alexander",
+                "adjective": ["Greek"],
+                "startBias": ["Coast"],
+                "preferredVictoryType":"Diplomatic",
+                "personality": "Alexander",
 
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text.",
-		"declaringWar": "You stand in the way of my people. Let us solve this like warriors!",
-		"attacked": "You dare have the courage to challenge nod, but no fear, for I will sweep you out of history.",
-		"defeated": "You have the guts to call my body a corpse but beware, I know what will happen to our future- our tiberium future.",
-		"introduction": "If I am cut, Do I not bleed?",
-		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
-		"outerColor": [0,0,0],
-		"innerColor": [142,22,0],
-		"uniqueName": "Word of Nod",
-		"uniques": ["[+30]% Strength <vs [City-States]>", "[+2] Movement <for [Armored] units>"],
-		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
-	},
+                "startIntroPart1": "Great King Alexander, leader of the mighty Greek nation, you are truly blessed by the gods. In 480 BC, quarrelsome city-states such as Athens, Sparta, Thebes, found a way to join their forces, allowing Greece to defeat the mighty Persia in the 5th century BC, both on land and sea. Following their example, you lead a Greek coalition and finally struck down the Persian Empire in 331 BC. You conquered almost all the known world, and from Europe to Africa to India, you built an empire unmatched by any before it.",
+                "startIntroPart2": "Megalexandros, son of Zeus, will you ride Bucephalas again, to gift the world with the brightness of the Greek culture? Will your new empire shine through the ages of history?",
 
-	{
-		"name": "The New Movement",
-		"leaderName": "Anton Slavik",
-		"preferredVictoryType": "Domination",
+                "declaringWar": "You are in my way, you must be destroyed.",
+                "attacked": "As a matter of fact I too grow weary of peace.",
+                "defeated": "You have somehow become my undoing! What kind of beast are you?",
+                "denounced": "You'll regret this decision, fool. I swear it!",
+                "introduction": "Hello stranger! I am Alexandros, son of kings and grandson of the gods!",
 
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text",
-		"declaringWar": "It is in  my Intentions to spread the word of Nod into your land.",
-		"attacked": "Pitiful fool! Now we shall destroy you!",
-		"defeated": "I see for the black hand has been unworthy to serve Kane.",
-		"introduction": "If you would stay out of our way then you might live to tell your tale.",
-		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
-		"outerColor": [139,0,0],
-		"innerColor": [0,0,0],
-		"uniqueName": "Purification",
-		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
-		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
-	}
-]
+                "neutralHello": "Greetings!",
+                "hateHello": "What?",
+
+                "tradeRequest": "My friend, does this seem reasonable to you?",
+
+                "outerColor": [255, 255, 255],
+                "innerColor": [65, 141, 254],
+                "favoredReligion": "Christianity",
+                "uniqueName": "Hellenic League",
+                "uniques": ["[-50]% City-State Influence degradation", "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory"],
+                "cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
+                        "Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
+                        "Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
+                        "Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
+                        "Patras","Lamia","Nafplion","Apolyton"],
+        "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander"]
+    },
+        {
+                "name": "China",
+                "leaderName": "Wu Zetian",
+                "adjective": ["Chinese"],
+                "preferredVictoryType": "Scientific",
+                "personality": "Wu Zetian",
+
+        "startIntroPart1": "Heaven itself bends before your beauty, Empress Wu Zetian, ruler of eternal China! You lead one of the oldest and greatest civilization of humanity. In your time, China stood at the forefront of science and technology, bringing the world such contributions as gunpowder, the printing press, and the world of Confucius, and this, long before the rest of the world was mature enough to make the same discoveries!",
+        "startIntroPart2": "Great Queen, can you make China prevail again, using your divine intelligence and beauty? China stands for greatness, and all its enemies will be dazzled soon enough! Will your new empire shine through the ages of history?",
+
+        "declaringWar": "You won't ever be able to bother me again. Go meet Yama.",
+                "attacked": "Fool! I will disembowel you all!",
+                "defeated": "You have proven to be a cunning and competent adversary. I congratulate you on your victory.",
+                "introduction": "Greetings, I am Empress Wu Zetian. China desires peace and development. You leave us alone, we'll leave you alone.",
+                "neutralHello": "How are you today?",
+                "hateHello": "Oh. It's you?",
+                "tradeRequest": "My friend, do you think you can accept this request?",
+
+        "outerColor": [9, 112, 84],
+        "innerColor": [255,255,255],
+
+                "favoredReligion": "Taoism",
+                "uniqueName": "Art of War",
+                "uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster", "[Great Admiral] is earned [50]% faster"],
+                "cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+                        "Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+                        "Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+                        "Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+
+    },
+        {
+                "name": "Egypt",
+                "leaderName": "Ramesses II",
+                "adjective": ["Egyptian"],
+                "startBias": ["Avoid [Jungle]","Avoid [Forest]"],
+                "preferredVictoryType": "Cultural",
+                "personality": "Ramesses II",
+
+        "startIntroPart1": "O great Ramesses, Pharaoh of Egypt, bright as the Sun and mighty as the Nile! Lord of all living things, you lead the greatest of all civilizations, which has gifted the world with writing, advanced mathematics, sculpture, and architecture. Egyptian monuments and culture will continue to amaze the world for thousands of years.",
+        "startIntroPart2": "Mighty and eternal Ramesses, Egypt lasted for millenia, whereas other civilisations disappeared into dust after a few centuries. Amun-Ra blesses you again to lead Egypt and its people on the path of light. Will your new empire shine through the ages of history?",
+
+                "declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
+                "attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization!",
+                "defeated": "Strike me down and my soul will torment yours forever, you have won nothing.",
+                "introduction": "Greetings, I am Ramesses the god. I am the living embodiment of Egypt, mother and father of all civilizations.",
+
+                "neutralHello": "Good day.",
+                "hateHello": "Oh, it's you.",
+
+                "tradeRequest": "Generous Egypt makes you this offer.",
+
+                "outerColor": [255, 252, 3],
+                "innerColor": [83, 0, 208],
+                "favoredReligion": "Islam",
+                "uniqueName": "Monument Builders",
+                "uniques": ["[+20]% Production when constructing [All] wonders [in all cities]"],
+                "cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
+                           "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
+                           "Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
+                           "Balat","Ellahun","Hawara","Dashur","Damanhur","Abusir","Herakleopolis","Akoris",
+                           "Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
+        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
+    },
+        {
+                "name": "England",
+                "leaderName": "Elizabeth",
+                "adjective": ["English"],
+                "startBias": ["Coast"],
+                "preferredVictoryType": "Diplomatic",
+                "personality": "Elizabeth",
+
+        "startIntroPart1": "Long live to Your Highness, Queen Elizabeth Gloriana, leader and protector of the glorious England! Through history, enduring many invasions, England strengthened its will, playing smartly with diplomacy, cunning, and military power, to eventually rose as one of the most dominant Empires the world has ever known. Their matchless navy, brilliant scientists and artists, and powerful merchants, have shaped the known world for centuries.",
+        "startIntroPart2": "Queen Elizabeth, will England cast once more its brightness upon all lands and seas of the world? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "By the grace of God, your days are numbered.",
+                "attacked": "We shall never surrender.",
+                "defeated": "You have triumphed over us. The day is yours.",
+                "denounced": "Your reckless pride will destroy you if you're not careful.",
+                "introduction": "We are pleased to meet you.",
+                "neutralHello": "Hello, again.",
+                "hateHello": "Oh, it's you!",
+                "tradeRequest": "Would you be interested in a trade agreement with England?",
+                "outerColor": [109, 2, 0],
+                "innerColor": [255, 255, 255],
+                "favoredReligion": "Christianity",
+                "uniqueName": "Sun Never Sets",
+                "uniques": ["[+2] Movement <for [Water] units>", ],"[+100]% [Coal] resource production",
+                "cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
+                        "Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
+                        "Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
+                        "Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
+        "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
+    },
+        {
+                "name": "France",
+                "leaderName": "Napoleon",
+                "adjective": ["French"],
+                "preferredVictoryType": "Cultural",
+                "personality": "Napoleon",
+
+        "startIntroPart1": "Vive Napoleon I, First Consul and Emperor of France! After the glorious Revolution which suppressed the centuries-old monarchy, the French nation stood at the heart of Europe as a Republic, and intended to export its ideals to the entire European continent, either by diplomacy or war. The French Capital Paris was more than ever the world center of Culture, Arts, and Letters. With its Great Army, reputed as one of the greatest in the History, France fought gloriously all surrounding enemies, but eventually fell against the coalition of other European powers.",
+        "startIntroPart2": "Napoleon Bonaparte, ruler of the French people, will you rebuild the Empire to take revenge on your foes, and make again of its Capital the City of Lights? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "You're disturbing us, prepare for war.",
+                "attacked": "You've fallen into my trap. I'll bury you.",
+                "defeated": "I congratulate you for your victory.",
+                "introduction": "Welcome. I'm Napoleon, of France; the smartest military man in world history.",
+                "neutralHello": "Hello.",
+                "hateHello": "It's you.",
+                "tradeRequest": "France offers you this exceptional proposition.",
+
+        "outerColor": [ 38, 98, 255],
+        "innerColor": [239,236,148],
+
+                "favoredReligion": "Christianity",
+                "uniqueName": "Ancien Régime",
+                "uniques": ["[+2 Culture] [in all cities] <before discovering [Steam Power]>"],
+                "cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
+                        "Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
+                        "Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
+                        "Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"],
+        "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]
+    },
+        {
+                "name": "Russia",
+                "leaderName": "Catherine",
+                "adjective": ["Russian"],
+                "startBias": ["Tundra"],
+                "preferredVictoryType": "Scientific",
+                "personality": "Catherine",
+
+
+        "startIntroPart1": "Hail to Imperial Majesty Catherine, Empress of all Russians. Living in the largest country in the world, from the Pacific Ocean in the east to the Baltic Sea in the west, your people endured wars, droughts, and many disasters, imbuing the Russian society with heroism and tenacity, and producing artists and scientists among the best in the world. Russia is a powerful empire which rightfully claims its place in the world concert of superpowers.",
+        "startIntroPart2": "Empress Catherine, your people are eager for Russian glory, to revive the sacred light of the Motherland. Will your new empire shine through the ages of history?",
+
+        "declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
+                "attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
+                "defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
+                "denounced": "So be it. You'll have only yourself to blame.",
+                "introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
+                "neutralHello": "Hello!",
+                "hateHello": "What do you need?!",
+                "tradeRequest": "How would you like it if I propose this kind of exchange?",
+                "outerColor": [239, 180, 0],
+                "innerColor": [0, 0, 0],
+                "favoredReligion": "Christianity",
+                "uniqueName": "Siberian Riches",
+                "uniques": ["[+1 Production] from every [Strategic resource]","[+100]% [Horses] resource production",
+                        "[+100]% [Iron] resource production","[+100]% [Uranium] resource production"],
+                "cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
+                        "Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
+                        "Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
+                        "Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"],
+        "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]
+    },
